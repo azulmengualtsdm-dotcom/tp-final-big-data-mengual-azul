@@ -1,0 +1,1 @@
+CREATE OR REPLACE TABLE raw_pedidos AS SELECT * FROM read_csv_auto('datos/pedidos.csv');
